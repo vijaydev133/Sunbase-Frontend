@@ -1,0 +1,135 @@
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login-form {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  /* max-width: 600px; */
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+#login-form > input {
+  width: 300px;
+  height: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+button {
+  padding: 0.8rem 3rem;
+}
+.pno {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+#customer-List {
+  display: none;
+}
+
+#customer-List {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 20px;
+}
+#btn > input,
+select {
+  height: 40px;
+}
+#searchBar {
+  height: 40px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table {
+  width: 95%;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-inline: auto;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  text-align: start;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+#addCustomer-form {
+  display: none;
+}
+#editCustomer-form {
+  display: none;
+}
+
+#addCustomer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+#addCustomer-form > div {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 40px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#addCustomer-form > div > div > input {
+  padding: 10px 10px;
+  margin-left: 20px;
+  display: flex;
+  row-gap: 20px;
+}
+
+/*  */
+
+#editCustomer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+#editCustomer-form > div {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 40px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#editCustomer-form > div > div > input {
+  padding: 10px 10px;
+  margin-left: 20px;
+  display: flex;
+  row-gap: 20px;
+}
